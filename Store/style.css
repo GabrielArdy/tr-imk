@@ -66,7 +66,7 @@
   position: absolute;
   top: 324px;
   left: 149px;
-  font-family: var(--subtitle-font-family);
+  font-family: "Inter", Helvetica;
   font-weight: var(--subtitle-font-weight);
   color: #000000;
   font-size: var(--subtitle-font-size);
