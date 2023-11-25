@@ -86,15 +86,29 @@
         <p class="p">Jl Kb Jati 18 Ruko Bl F/75, Dki Jakarta, Jakarta, Indonesia,10250</p>
         <div class="text-wrapper-24">Select Shipping</div>
         <div class="text-wrapper-25">Select Courier</div>
-        <div class="overlap-6">
+        <div class="overlap-6" id="dropdownContainer">
           <div class="rectangle-6"></div>
           <div class="text-wrapper-26">Regular</div>
           <img class="vector-4" src="img/vector-1.svg" />
+    
+          <!-- Dropdown content -->
+          <div class="dropdown-content">
+            <div onclick="selectDropdownItem('Regular')">Regular</div>
+            <div onclick="selectDropdownItem('Large')">Large</div>
+            <!-- Add more items as needed -->
+          </div>
         </div>
-        <div class="overlap-7">
+        <div class="overlap-7" id="dropdownContainer2">
           <div class="rectangle-6"></div>
           <div class="text-wrapper-26">DHL</div>
           <img class="vector-4" src="img/vector-1.svg" />
+    
+          <!-- Dropdown content -->
+          <div class="dropdown-content">
+            <div onclick="selectDropdownItem('DHL')">DHL</div>
+            <div onclick="selectDropdownItem('FedEx')">FedEx</div>
+            <!-- Add more items as needed -->
+          </div>
         </div>
       </div>
     </div>
