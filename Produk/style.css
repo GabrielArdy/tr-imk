@@ -162,6 +162,21 @@
   border-radius: 2px;
 }
 
+
+.produk .overlap-2:hover,
+.produk .overlap-group:hover,
+.produk .div-wrapper:hover,
+.produk .overlap-2:hover,
+.produk .overlap-3:hover,
+.produk .overlap-4:hover,
+.produk .overlap-5:hover,
+.produk .overlap-6:hover,
+.produk .overlap-7:hover,
+.produk .overlap-8:hover {
+  background-color: var(--secondary);
+  cursor: pointer;
+}
+
 .produk .overlap-3 {
   width: 24px;
   height: 24px;
@@ -298,8 +313,31 @@
   background-color: #ffffff;
   border: 1px solid;
   border-color: #00000099;
-  position: absolute;
+  position: relative;
   border-radius: 2px;
+}
+
+.produk .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #00000099;
+  border-radius: 2px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.produk .dropdown-content li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.produk .dropdown-content li:hover {
+  background-color: #f1f1f1;
+}
+
+.produk .overlap-9:hover .dropdown-content {
+  display: block;
 }
 
 .produk .text-wrapper-10 {
@@ -331,7 +369,10 @@
   left: 88px;
   background-color: var(--main-color);
   position: absolute;
-  border-radius: 2px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .produk .text-wrapper-11 {
@@ -346,6 +387,20 @@
   line-height: var(--content-line-height);
   white-space: nowrap;
   font-style: var(--content-font-style);
+}
+
+.produk .text-wrapper-11 {
+  font-size: 16px;
+  color: #ffffff; 
+}
+
+.produk .overlap-10:hover {
+  background-color: var(--second); 
+  border-color: var(--second); 
+}
+
+.produk .overlap-10:hover .text-wrapper-11 {
+  color: #ffffff; 
 }
 
 .produk .line {
