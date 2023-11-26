@@ -549,3 +549,14 @@
   top: 17px;
   left: 1646px;
 }
+
+
+.menu {
+  color: var(--fonts);
+  transition-duration: 0.2s;
+}
+
+.menu:hover {
+  color: #a6a6a6;
+}
+

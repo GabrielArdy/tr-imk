@@ -1260,7 +1260,7 @@ a {
   width: 400px;
   height: 138px;
   top: 26px;
-  background-color: var(--third);
+  background-color: #ffffff;
   border-radius: 5px;
   position: absolute;
   left: 0;
@@ -1485,4 +1485,13 @@ a {
   height: 40px;
   top: 17px;
   left: 1646px;
+}
+
+.menu {
+  color: var(--fonts);
+  transition-duration: 0.2s;
+}
+
+.menu:hover {
+  color: #a6a6a6;
 }
