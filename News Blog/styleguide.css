@@ -1,10 +1,6 @@
 :root {
-  --main-color: rgba(11, 36, 71, 1);
-  --second: rgba(92, 109, 132, 1);
-  --third: rgba(174, 182, 194, 1);
-  --adds: rgba(217, 217, 217, 1);
   --fonts: rgba(227, 227, 227, 1);
-  --fonts-nigga: rgba(16, 16, 16, 1);
+  --main-color: rgba(11, 36, 71, 1);
   --category-font-family: "Inter-ExtraBold", Helvetica;
   --category-font-weight: 800;
   --category-font-size: 40px;
@@ -17,12 +13,6 @@
   --title-letter-spacing: 0px;
   --title-line-height: 100%;
   --title-font-style: normal;
-  --subtitle-font-family: "Inter-ExtraBold", Helvetica;
-  --subtitle-font-weight: 800;
-  --subtitle-font-size: 20px;
-  --subtitle-letter-spacing: 0px;
-  --subtitle-line-height: 100%;
-  --subtitle-font-style: normal;
   --sub-subtitle-font-family: "Inter-ExtraBold", Helvetica;
   --sub-subtitle-font-weight: 800;
   --sub-subtitle-font-size: 16px;
@@ -35,16 +25,4 @@
   --sub-subtitle-reguler-letter-spacing: 0px;
   --sub-subtitle-reguler-line-height: 100%;
   --sub-subtitle-reguler-font-style: normal;
-  --content-font-family: "Inter-Regular", Helvetica;
-  --content-font-weight: 400;
-  --content-font-size: 11px;
-  --content-letter-spacing: 0px;
-  --content-line-height: 100%;
-  --content-font-style: normal;
-  --subtitle-semi-font-family: "Inter-SemiBold", Helvetica;
-  --subtitle-semi-font-weight: 600;
-  --subtitle-semi-font-size: 20px;
-  --subtitle-semi-letter-spacing: 0px;
-  --subtitle-semi-line-height: 100%;
-  --subtitle-semi-font-style: normal;
 }

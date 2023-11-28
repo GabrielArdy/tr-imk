@@ -378,3 +378,12 @@
   top: 5px;
   left: 73px;
 }
+
+.menu {
+  color: var(--fonts);
+  transition-duration: 0.2s;
+}
+
+.menu:hover {
+  color: #a6a6a6;
+}
