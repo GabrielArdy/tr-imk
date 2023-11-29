@@ -87,6 +87,7 @@
   line-height: 20px;
   white-space: nowrap;
   transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
 }
 
 .store .text-wrapper:hover,
@@ -577,4 +578,27 @@
 
 .menu:hover {
   color: #a6a6a6;
+}
+
+@media only screen and (max-width: 768px) {
+  .store .component,
+  .store .component-2,
+  .store .component-3,
+  .store .component-4,
+  .store .component-5,
+  .store .component-6,
+  .store .component-7,
+  .store .component-8 {
+    width: 100%; /* Ubah lebar komponen menjadi 100% pada layar kecil */
+    margin-right: 0; /* Hilangkan margin kanan */
+    margin-bottom: 20px; /* Tambahkan margin bawah */
+  }
+
+  .store .div {
+    width: 100%; /* Set lebar div menjadi 100% pada layar kecil */
+  }
+
+  .store .LOGO {
+    display: none; /* Sembunyikan logo pada layar kecil jika diinginkan */
+  }
 }

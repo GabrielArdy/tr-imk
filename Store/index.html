@@ -29,61 +29,70 @@
     <div class="store">
       <div class="div">
         <img class="LOGO" src="img/logo-1.png" />
-        <div class="text-wrapper">All Category</div>
         <div class="text-wrapper-2">Filter</div>
-        <div class="text-wrapper-3">Jerseys</div>
-        <div class="text-wrapper-4">Hats</div>
-        <div class="text-wrapper-5">Footwear</div>
+        <div class="text-wrapper" data-filter="all">All Category</div>
+        <div class="text-wrapper-3" data-filter="jerseys">Jerseys</div>
+        <div class="text-wrapper-4" data-filter="hats">Hats</div>
+        <div class="text-wrapper-5" data-filter="footwear">Footwear</div>
         <img class="line" src="img/line-6.svg" />
-        <div class="component">
+        
+        <div class="component" data-filter="footwear">
           <a href="/Produk/index.html">
           <div class="text-wrapper-6">Rp. 1.500.000</div>
           <p class="p">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <div class="text-wrapper-7">Sendal</div>
           <div class="produk"></div>
         </div>
-        <div class="component-2">
+
+        <div class="component-2" data-filter="footwear">
           <div class="text-wrapper-6">Rp. 1.500.000</div>
           <p class="p">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <div class="text-wrapper-7">Sendal</div>
           <div class="produk-2"></div>
         </div>
-        <div class="component-3">
+
+        <div class="component-3" data-filter="hats">
           <div class="text-wrapper-6">Rp. 1.500.000</div>
           <p class="p">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <div class="text-wrapper-7">Topi</div>
           <div class="produk-3"></div>
         </div>
-        <div class="component-4">
+
+        <div class="component-4" data-filter="hats">
           <div class="text-wrapper-6">Rp. 1.500.000</div>
           <p class="p">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <div class="text-wrapper-7">Topi</div>
           <div class="produk-4"></div>
         </div>
-        <div class="component-5">
+
+        <div class="component-5" data-filter="jerseys">
           <div class="text-wrapper-6">Rp. 1.500.000</div>
           <p class="p">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <div class="text-wrapper-7">Jersey</div>
           <div class="produk-5"></div>
         </div>
-        <div class="component-6">
+
+        <div class="component-6" data-filter="jerseys">
           <div class="text-wrapper-6">Rp. 1.500.000</div>
           <p class="p">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <div class="text-wrapper-7">Jersey</div>
           <div class="produk-6"></div>
         </div>
-        <div class="component-7">
+
+        <div class="component-7" data-filter="footwear">
           <div class="text-wrapper-6">Rp. 1.500.000</div>
           <p class="p">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <div class="text-wrapper-7">Sepatu</div>
           <div class="produk-7"></div>
         </div>
-        <div class="component-8">
+
+        <div class="component-8" data-filter="footwear">
           <div class="text-wrapper-8">Rp. 1.500.000</div>
           <p class="text-wrapper-9">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <div class="text-wrapper-10">Kaus Kaki</div>
           <div class="produk-8"></div>
         </div>
+        
         <div class="group">
           <div class="navbar">
             <div class="brand">
@@ -103,3 +112,27 @@
     </div>
   </body>
 </html>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const filterButtons = document.querySelectorAll('.text-wrapper, .text-wrapper-3, .text-wrapper-4, .text-wrapper-5');
+    const components = document.querySelectorAll('.component, .component-2, .component-3, .component-4, .component-5, .component-6, .component-7, .component-8');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        const filterValue = this.getAttribute('data-filter');
+
+        components.forEach(component => {
+          const componentFilter = component.getAttribute('data-filter');
+
+          if (filterValue === 'all' || filterValue === componentFilter) {
+            component.style.display = 'block';
+          } else {
+            component.style.display = 'none';
+          }
+        });
+      });
+    });
+  });
+</script>
