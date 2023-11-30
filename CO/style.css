@@ -488,6 +488,24 @@
   object-fit: cover;
 }
 
+.CO .image-removebgm1 {
+  width: 118px;
+  height: 60px;
+  top: 20px;
+  left: 114px;
+  margin-left: 100px;
+  object-fit: cover;
+}
+
+.CO .image-removebgm2 {
+  width: 118px;
+  height: 37px;
+  top: 20px;
+  left: 114px;
+  margin-left: 100px;
+  object-fit: cover;
+}
+
 .CO .text-wrapper-18 {
   top: 169px;
   position: absolute;
@@ -841,3 +859,4 @@
 .menu:hover {
   color: #a6a6a6;
 }
+
