@@ -8,9 +8,9 @@
 
 .news-blog .overlap-wrapper {
   background-color: #ffffff;
-  overflow: hidden;
+  overflow-x: hidden;
   width: 1920px;
-  height: 1080px;
+  height: 4194px;
 }
 
 .news-blog .overlap {
