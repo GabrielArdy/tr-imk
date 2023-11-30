@@ -1,3 +1,7 @@
+body::-webkit-scrollbar {
+  width: 0;
+}
+
 a {
   color: var(--fonts);
 }
