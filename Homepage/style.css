@@ -11,7 +11,7 @@ a {
 }
 
 .hompage .div {
-  background-color: #ffffff;
+  background-color: var(--bg-color);
   overflow: hidden;
   width: 1920px;
   height: 2959px;
@@ -82,7 +82,7 @@ a {
   left: 16px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -98,7 +98,7 @@ a {
   left: 16px;
   font-family: "Inter", Helvetica;
   font-weight: 400;
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: 11px;
   letter-spacing: 0;
   line-height: 16.5px;
@@ -271,7 +271,7 @@ a {
   width: 508px;
   top: 89px;
   left: 30px;
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--category-font-size);
   line-height: var(--category-line-height);
   position: absolute;
@@ -286,7 +286,7 @@ a {
   top: 144px;
   left: 30px;
   font-weight: var(--subtitle-semi-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--subtitle-semi-font-size);
   line-height: var(--subtitle-semi-line-height);
   position: absolute;
@@ -301,7 +301,7 @@ a {
   left: 180px;
   font-family: var(--category-font-family);
   font-weight: var(--category-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--category-font-size);
   letter-spacing: var(--category-letter-spacing);
   line-height: var(--category-line-height);
@@ -358,7 +358,7 @@ a {
   position: absolute;
   left: 0;
   font-family: var(--title-font-family);
-  color: #000000;
+  color: var(--fonts-nigga);
   letter-spacing: var(--title-letter-spacing);
   font-style: var(--title-font-style);
 }
@@ -377,7 +377,7 @@ a {
   position: absolute;
   left: 0;
   font-family: var(--sub-subtitle-reguler-font-family);
-  color: #000000;
+  color: var(--fonts-nigga);
   letter-spacing: var(--sub-subtitle-reguler-letter-spacing);
   font-style: var(--sub-subtitle-reguler-font-style);
 }
@@ -388,7 +388,7 @@ a {
   left: 0;
   font-family: var(--content-font-family);
   font-weight: var(--content-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--content-font-size);
   letter-spacing: var(--content-letter-spacing);
   line-height: var(--content-line-height);
@@ -477,7 +477,7 @@ a {
 .hompage .text-wrapper-10 {
   top: 279px;
   left: 0;
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--title-font-size);
   line-height: var(--title-line-height);
   white-space: nowrap;
@@ -493,7 +493,7 @@ a {
   top: 335px;
   left: 0;
   font-weight: var(--sub-subtitle-reguler-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--sub-subtitle-reguler-font-size);
   line-height: var(--sub-subtitle-reguler-line-height);
   overflow: hidden;
@@ -513,7 +513,7 @@ a {
   left: 0;
   font-family: var(--content-font-family);
   font-weight: var(--content-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--content-font-size);
   letter-spacing: var(--content-letter-spacing);
   line-height: var(--content-line-height);
@@ -598,7 +598,7 @@ a {
   left: 30px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -612,7 +612,7 @@ a {
   position: absolute;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -634,7 +634,7 @@ a {
   position: absolute;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -657,7 +657,7 @@ a {
   position: absolute;
   font-family: var(--content-font-family);
   font-weight: var(--content-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--content-font-size);
   letter-spacing: var(--content-letter-spacing);
   line-height: var(--content-line-height);
@@ -679,7 +679,7 @@ a {
   left: 12px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -693,7 +693,7 @@ a {
   position: absolute;
   font-family: var(--content-font-family);
   font-weight: var(--content-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--content-font-size);
   letter-spacing: var(--content-letter-spacing);
   line-height: var(--content-line-height);
@@ -739,7 +739,7 @@ a {
   left: 210px;
   font-family: var(--content-font-family);
   font-weight: var(--content-font-weight);
-  color: #ffffff;
+  color: rgba(227, 227, 227, 1);
   font-size: var(--content-font-size);
   letter-spacing: var(--content-letter-spacing);
   line-height: var(--content-line-height);
@@ -753,7 +753,7 @@ a {
   left: 204px;
   font-family: var(--content-font-family);
   font-weight: var(--content-font-weight);
-  color: #ffffff;
+  color: rgba(227, 227, 227, 1);
   font-size: var(--content-font-size);
   letter-spacing: var(--content-letter-spacing);
   line-height: var(--content-line-height);
@@ -794,7 +794,7 @@ a {
   left: 0;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -808,7 +808,7 @@ a {
   left: 30px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -831,7 +831,7 @@ a {
   left: 74px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -845,7 +845,7 @@ a {
   left: 212px;
   font-family: var(--content-font-family);
   font-weight: var(--content-font-weight);
-  color: #ffffff;
+  color: rgba(227, 227, 227, 1);
   font-size: var(--content-font-size);
   letter-spacing: var(--content-letter-spacing);
   line-height: var(--content-line-height);
@@ -894,7 +894,7 @@ a {
   left: 45px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -908,7 +908,7 @@ a {
   position: absolute;
   font-family: var(--content-font-family);
   font-weight: var(--content-font-weight);
-  color: #ffffff;
+  color: rgba(227, 227, 227, 1);
   font-size: var(--content-font-size);
   letter-spacing: var(--content-letter-spacing);
   line-height: var(--content-line-height);
@@ -940,7 +940,7 @@ a {
   left: 44px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -987,7 +987,7 @@ a {
   position: absolute;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -999,7 +999,7 @@ a {
   top: 15px;
   left: 201px;
   font-weight: var(--content-font-weight);
-  color: #ffffff;
+  color: rgba(227, 227, 227, 1);
   font-size: var(--content-font-size);
   line-height: var(--content-line-height);
   position: absolute;
@@ -1024,7 +1024,7 @@ a {
   left: 74px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -1038,7 +1038,7 @@ a {
   position: absolute;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -1052,7 +1052,7 @@ a {
   position: absolute;
   font-family: var(--content-font-family);
   font-weight: var(--content-font-weight);
-  color: #ffffff;
+  color: rgba(227, 227, 227, 1);
   font-size: var(--content-font-size);
   letter-spacing: var(--content-letter-spacing);
   line-height: var(--content-line-height);
@@ -1064,7 +1064,7 @@ a {
   top: 16px;
   left: 201px;
   font-weight: var(--content-font-weight);
-  color: #ffffff;
+  color: rgba(227, 227, 227, 1);
   font-size: var(--content-font-size);
   line-height: var(--content-line-height);
   position: absolute;
@@ -1080,7 +1080,7 @@ a {
   left: 30px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -1136,7 +1136,7 @@ a {
   position: absolute;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -1150,7 +1150,7 @@ a {
   left: 44px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -1198,7 +1198,7 @@ a {
   top: 11px;
   left: 180px;
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--second);
+  color: rgba(16, 16, 16, 1);
   font-size: var(--sub-subtitle-font-size);
   line-height: var(--sub-subtitle-line-height);
   position: absolute;
@@ -1220,7 +1220,7 @@ a {
   top: -1px;
   left: 0;
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   line-height: var(--sub-subtitle-line-height);
   position: absolute;
@@ -1260,7 +1260,7 @@ a {
   width: 400px;
   height: 138px;
   top: 26px;
-  background-color: #ffffff;
+  background-color: var(--third);
   border-radius: 5px;
   position: absolute;
   left: 0;
@@ -1273,7 +1273,7 @@ a {
   left: 150px;
   font-family: var(--subtitle-font-family);
   font-weight: var(--subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--subtitle-font-size);
   letter-spacing: var(--subtitle-letter-spacing);
   line-height: var(--subtitle-line-height);
@@ -1296,7 +1296,7 @@ a {
   left: 197px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -1311,7 +1311,7 @@ a {
   left: 197px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -1326,7 +1326,7 @@ a {
   left: 197px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -1350,7 +1350,7 @@ a {
 }
 
 .hompage .navbar-wrapper {
-  position: absolute;
+  position: fixed;
   width: 1932px;
   height: 75px;
   top: 0;
@@ -1387,7 +1387,7 @@ a {
   left: 90px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -1401,7 +1401,7 @@ a {
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -1415,7 +1415,7 @@ a {
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -1424,12 +1424,12 @@ a {
 }
 
 .hompage .text-wrapper-47 {
-  left: 1722px;
+  left: 1640px;
   position: absolute;
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -1438,12 +1438,12 @@ a {
 }
 
 .hompage .text-wrapper-48 {
-  left: 1812px;
+  left: 1740px;
   position: absolute;
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -1457,7 +1457,7 @@ a {
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -1471,7 +1471,7 @@ a {
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -1484,7 +1484,7 @@ a {
   width: 40px;
   height: 40px;
   top: 17px;
-  left: 1646px;
+  left: 1570px;
 }
 
 .menu {
@@ -1494,4 +1494,66 @@ a {
 
 .menu:hover {
   color: #a6a6a6;
+}
+
+.dark-mode {
+  --bg-color: #101010;
+  --main-color: #252525;
+  --second: #454545;
+  --third: #656565;
+  --adds: #bababa;
+  /* --fonts: #e9e9e9;
+  --fonts-nigga: #252525; */
+  --fonts: #252525;
+  --fonts-nigga: #e9e9e9;
+}
+
+.dark-mode-wrapper {
+  position: absolute;
+  top: 20px;
+  left: 1840px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: var(--fonts);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+.fa-moon {
+  color: #f1c40f;
+}
+.fa-sun {
+  color: #f39c12;
+}
+.checkbox-label {
+  background-color: rgba(227, 227, 227, 1);
+  width: 52px;
+  height: 32px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkbox-label .ball {
+  background: var(--main-color);
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 7px;
+  top: 4.5px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(15px);
 }
