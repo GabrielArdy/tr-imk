@@ -20,6 +20,7 @@ a {
   width: 1920px;
   height: 2959px;
   position: relative;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .hompage .LOGO {
@@ -1359,6 +1360,7 @@ a {
   height: 75px;
   top: 0;
   left: 0;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .hompage .navbar {

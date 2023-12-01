@@ -16,6 +16,7 @@ body::-webkit-scrollbar {
   width: 1920px;
   height: 1080px;
   position: relative;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .gallery .frame {
@@ -95,6 +96,7 @@ body::-webkit-scrollbar {
   height: 75px;
   top: 0;
   left: 0;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .gallery .navbar {

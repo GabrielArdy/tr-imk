@@ -20,6 +20,7 @@ a {
   width: 1920px;
   height: 2969px;
   position: relative;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .news-page .rectangle {
@@ -426,6 +427,7 @@ a {
   height: 75px;
   top: 0;
   left: 0;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .news-page .navbar {
