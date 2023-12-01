@@ -1,3 +1,7 @@
+body::-webkit-scrollbar {
+  width: 0;
+}
+
 .CO {
   background-color: #ffffff;
   display: flex;
@@ -7,11 +11,12 @@
 }
 
 .CO .div {
-  background-color: #ffffff;
+  background-color: var(--bg-color);
   overflow: hidden;
   width: 1920px;
   height: 1024px;
   position: relative;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .CO .LOGO {
@@ -26,9 +31,10 @@
 .CO .group {
   width: 1932px;
   height: 75px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .CO .navbar {
@@ -61,7 +67,7 @@
   left: 90px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -75,7 +81,7 @@
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -89,7 +95,7 @@
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -98,12 +104,12 @@
 }
 
 .CO .text-wrapper-4 {
-  left: 1722px;
+  left: 1640px;
   position: absolute;
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -112,12 +118,12 @@
 }
 
 .CO .text-wrapper-5 {
-  left: 1812px;
+  left: 1740px;
   position: absolute;
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -131,7 +137,7 @@
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -145,7 +151,7 @@
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -158,7 +164,7 @@
   width: 40px;
   height: 40px;
   top: 17px;
-  left: 1646px;
+  left: 1570px;
 }
 
 .CO .overlap {
@@ -186,7 +192,7 @@
   height: 367px;
   top: 5px;
   left: 5px;
-  background-color: #ffffff;
+  background-color: var(--third);
   border-radius: 20px;
 }
 
@@ -196,6 +202,7 @@
   height: 15px;
   top: 261px;
   left: 264px;
+  filter: drop-shadow(1px 1px 1px rgba(227, 227, 227, 1));
 }
 
 .CO .text-wrapper-8 {
@@ -204,7 +211,7 @@
   left: 24px;
   font-family: "Inter", Helvetica;
   font-weight: 800;
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: 11px;
   letter-spacing: 0;
   line-height: 11px;
@@ -217,7 +224,7 @@
   left: 24px;
   font-family: var(--content-font-family);
   font-weight: var(--content-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--content-font-size);
   letter-spacing: var(--content-letter-spacing);
   line-height: var(--content-line-height);
@@ -231,7 +238,7 @@
   left: 299px;
   font-family: "Inter", Helvetica;
   font-weight: 500;
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: 11px;
   letter-spacing: 0;
   line-height: 11px;
@@ -244,7 +251,7 @@
   left: 24px;
   font-family: var(--content-font-family);
   font-weight: var(--content-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--content-font-size);
   letter-spacing: var(--content-letter-spacing);
   line-height: var(--content-line-height);
@@ -258,7 +265,7 @@
   left: 299px;
   font-family: "Inter", Helvetica;
   font-weight: 500;
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: 11px;
   letter-spacing: 0;
   line-height: 11px;
@@ -271,7 +278,7 @@
   left: 24px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -299,7 +306,7 @@
   left: 98px;
   font-family: "Inter", Helvetica;
   font-weight: 600;
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: 20px;
   letter-spacing: 0;
   line-height: 20px;
@@ -314,7 +321,7 @@
   left: 0;
   border-radius: 10px;
   border: 1px solid;
-  border-color: #0000004c;
+  border-color: var(--fonts-nigga) 4c;
 }
 
 .CO .vector {
@@ -339,7 +346,7 @@
   left: 24px;
   font-family: var(--subtitle-font-family);
   font-weight: var(--subtitle-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--subtitle-font-size);
   letter-spacing: var(--subtitle-letter-spacing);
   line-height: var(--subtitle-line-height);
@@ -428,7 +435,7 @@
   height: 172px;
   top: 4px;
   left: 5px;
-  background-color: #ffffff;
+  background-color: var(--third);
   border-radius: 20px;
 }
 
@@ -438,7 +445,7 @@
   left: 24px;
   font-family: var(--subtitle-font-family);
   font-weight: var(--subtitle-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--subtitle-font-size);
   letter-spacing: var(--subtitle-letter-spacing);
   line-height: var(--subtitle-line-height);
@@ -476,7 +483,7 @@
   left: 0;
   border-radius: 10px;
   border: 1px solid;
-  border-color: #0000004c;
+  border-color: var(--fonts-nigga) 4c;
 }
 
 .CO .image-removebg {
@@ -512,7 +519,7 @@
   left: 150px;
   font-family: var(--title-font-family);
   font-weight: var(--title-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--title-font-size);
   letter-spacing: var(--title-letter-spacing);
   line-height: var(--title-line-height);
@@ -526,7 +533,7 @@
   left: 150px;
   font-family: var(--title-font-family);
   font-weight: var(--title-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--title-font-size);
   letter-spacing: var(--title-letter-spacing);
   line-height: var(--title-line-height);
@@ -541,6 +548,7 @@
   position: absolute;
   height: 1px;
   object-fit: cover;
+  filter: drop-shadow(1px 1px 1px rgba(227, 227, 227, 1));
 }
 
 .CO .line-4 {
@@ -550,6 +558,7 @@
   position: absolute;
   height: 1px;
   object-fit: cover;
+  filter: drop-shadow(1px 1px 1px rgba(227, 227, 227, 1));
 }
 
 .CO .line-5 {
@@ -559,6 +568,7 @@
   position: absolute;
   height: 1px;
   object-fit: cover;
+  filter: drop-shadow(1px 1px 1px rgba(227, 227, 227, 1));
 }
 
 .CO .vector-3 {
@@ -576,6 +586,7 @@
   left: 150px;
   position: absolute;
   object-fit: cover;
+  filter: drop-shadow(0px 1px 1px var(--fonts-nigga));
 }
 
 .CO .men-s-denver-nuggets {
@@ -585,7 +596,7 @@
   left: 423px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -598,7 +609,7 @@
   left: 423px;
   font-family: "Inter", Helvetica;
   font-weight: 400;
-  color: #000000;
+  color: #8591a3;
   font-size: 14px;
   letter-spacing: 0;
   line-height: 14px;
@@ -621,7 +632,7 @@
   left: 423px;
   border-radius: 10px;
   border: 1px solid;
-  border-color: #000000;
+  border-color: var(--fonts-nigga);
 }
 
 .CO .text-wrapper-21 {
@@ -630,7 +641,7 @@
   left: 38px;
   font-family: "Inter", Helvetica;
   font-weight: 400;
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: 14px;
   letter-spacing: 0;
   line-height: 14px;
@@ -643,6 +654,7 @@
   height: 17px;
   top: 3px;
   left: 63px;
+  filter: drop-shadow(1px 1px 1px #fff);
 }
 
 .CO .minus {
@@ -651,6 +663,7 @@
   height: 17px;
   top: 3px;
   left: 3px;
+  filter: drop-shadow(1px 1px 1px #fff);
 }
 
 .CO .overlap-5 {
@@ -659,7 +672,7 @@
   height: 24px;
   top: 664px;
   left: 150px;
-  background-color: #c5c5c5;
+  background-color: var(--third);
   border-radius: 10px;
 }
 
@@ -669,7 +682,7 @@
   left: 11px;
   font-family: "Inter", Helvetica;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--fonts-nigga);
   font-size: 14px;
   letter-spacing: 0;
   line-height: 14px;
@@ -682,7 +695,7 @@
   left: 278px;
   font-family: "Inter", Helvetica;
   font-weight: 400;
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: 16px;
   letter-spacing: 0;
   line-height: 16px;
@@ -696,7 +709,7 @@
 .CO .text-wrapper-23 {
   font-family: var(--sub-subtitle-reguler-font-family);
   font-weight: var(--sub-subtitle-reguler-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--sub-subtitle-reguler-font-size);
   letter-spacing: var(--sub-subtitle-reguler-letter-spacing);
   line-height: var(--sub-subtitle-reguler-line-height);
@@ -709,7 +722,7 @@
   left: 150px;
   font-family: var(--sub-subtitle-reguler-font-family);
   font-weight: var(--sub-subtitle-reguler-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--sub-subtitle-reguler-font-size);
   letter-spacing: var(--sub-subtitle-reguler-letter-spacing);
   line-height: var(--sub-subtitle-reguler-line-height);
@@ -723,7 +736,7 @@
   top: 767px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -737,7 +750,7 @@
   top: 767px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -752,6 +765,7 @@
   top: 792px;
   left: 150px;
   border-radius: 5px;
+  background-color: #fff;
 }
 
 .CO .rectangle-6 {
@@ -762,7 +776,7 @@
   left: 0;
   border-radius: 5px;
   border: 1px solid;
-  border-color: #00000080;
+  border-color: var(--fonts-nigga) 80;
 }
 
 .CO .text-wrapper-26 {
@@ -771,7 +785,7 @@
   left: 12px;
   font-family: var(--sub-subtitle-reguler-font-family);
   font-weight: var(--sub-subtitle-reguler-font-weight);
-  color: #000000;
+  color: rgba(16, 16, 16, 1);
   font-size: var(--sub-subtitle-reguler-font-size);
   letter-spacing: var(--sub-subtitle-reguler-letter-spacing);
   line-height: var(--sub-subtitle-reguler-line-height);
@@ -785,6 +799,7 @@
   height: 6px;
   top: 13px;
   left: 170px;
+  filter: drop-shadow(1px 1px 1px #fff);
 }
 
 .CO .dropdown-content {
@@ -793,9 +808,9 @@
   top: 100%; /* Position below the parent container */
   left: 0;
   width: 100%; /* Match the width of the parent container */
-  background-color: #ffffff;
-  border: 1px solid #000000;
+  border: 1px solid var(--fonts-nigga);
   border-radius: 5px;
+  background-color: #fff;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   font-family: var(--sub-subtitle-font-family);
 }
@@ -824,6 +839,7 @@
   top: 792px;
   left: 423px;
   border-radius: 5px;
+  background-color: #fff;
 }
 
 .CO .dropdown-content {
@@ -832,9 +848,9 @@
   top: 100%; /* Position below the parent container */
   left: 0;
   width: 100%; /* Match the width of the parent container */
-  background-color: #ffffff;
-  border: 1px solid #000000;
+  border: 1px solid var(--fonts-nigga);
   border-radius: 5px;
+  background-color: #fff;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -860,3 +876,130 @@
   color: #a6a6a6;
 }
 
+.dark-mode {
+  --bg-color: #101010;
+  --modal: #454545;
+  --main-color: #252525;
+  --second: #454545;
+  --third: #656565;
+  --adds: #bababa;
+  /* --fonts: #e9e9e9;
+  --fonts-nigga: #252525; */
+  --fonts: #252525;
+  --fonts-nigga: #e9e9e9;
+}
+
+.dark-mode-wrapper {
+  position: absolute;
+  top: 20px;
+  left: 1840px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: var(--fonts);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+.fa-moon {
+  color: #717171;
+}
+.fa-sun {
+  color: #f39c12;
+}
+.checkbox-label {
+  background-color: rgba(227, 227, 227, 1);
+  width: 55px;
+  height: 32px;
+  border-radius: 50px;
+  position: relative;
+  padding: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkbox-label .ball {
+  background: var(--main-color);
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 7px;
+  top: 4.5px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(20px);
+}
+
+.modal-title {
+  margin-left: 150px;
+  color: var(--fonts-nigga);
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-reguler-letter-spacing);
+  font-family: var(--category-font-family);
+}
+
+.modal-body {
+  margin-left: 5px;
+}
+
+.new-acc {
+  text-decoration: none;
+  position: relative;
+  color: var(--fonts-nigga);
+  /* top: 15px; */
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--content-font-weight-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.new-acc:hover {
+  color: navy;
+}
+
+.btn {
+  background-color: var(--third);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 450px;
+}
+
+.btn:hover {
+  background-color: var(--second);
+  color: var(--fonts);
+}
+
+.subtitle-text {
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--content-font-weight-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--subtitle-font-style);
+}
+
+.content-text {
+  font-family: var(--sub-content-font-family);
+  font-weight: var(--sub-content-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--content-font-weight-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
