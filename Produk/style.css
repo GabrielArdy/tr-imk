@@ -162,7 +162,6 @@
   border-radius: 2px;
 }
 
-
 .produk .overlap-2:hover,
 .produk .overlap-group:hover,
 .produk .div-wrapper:hover,
@@ -378,7 +377,7 @@
 .produk .text-wrapper-11 {
   position: absolute;
   top: 5px;
-  left: 55px;
+  left: 48px;
   font-family: var(--content-font-family);
   font-weight: var(--content-font-weight);
   color: #ffffff;
@@ -391,16 +390,16 @@
 
 .produk .text-wrapper-11 {
   font-size: 16px;
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .produk .overlap-10:hover {
-  background-color: var(--second); 
-  border-color: var(--second); 
+  background-color: var(--second);
+  border-color: var(--second);
 }
 
 .produk .overlap-10:hover .text-wrapper-11 {
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .produk .line {
@@ -611,5 +610,3 @@
 .menu:hover {
   color: #a6a6a6;
 }
-
-
