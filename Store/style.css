@@ -1,53 +1,6 @@
-/* :root {
-  --main-color: rgba(11, 36, 71, 1);
-  --second: rgba(92, 109, 132, 1);
-  --third: rgba(174, 182, 194, 1);
-  --adds: rgba(217, 217, 217, 1);
-  --fonts: rgba(227, 227, 227, 1);
-  --fonts-nigga: rgba(16, 16, 16, 1);
-  --category-font-family: "Inter-ExtraBold", Helvetica;
-  --category-font-weight: 800;
-  --category-font-size: 40px;
-  --category-letter-spacing: 0px;
-  --category-line-height: 100%;
-  --category-font-style: normal;
-  --title-font-family: "Inter-ExtraBold", Helvetica;
-  --title-font-weight: 800;
-  --title-font-size: 30px;
-  --title-letter-spacing: 0px;
-  --title-line-height: 100%;
-  --title-font-style: normal;
-  --subtitle-font-family: "Inter-ExtraBold", Helvetica;
-  --subtitle-font-weight: 800;
-  --subtitle-font-size: 20px;
-  --subtitle-letter-spacing: 0px;
-  --subtitle-line-height: 100%;
-  --subtitle-font-style: normal;
-  --sub-subtitle-font-family: "Inter-ExtraBold", Helvetica;
-  --sub-subtitle-font-weight: 800;
-  --sub-subtitle-font-size: 16px;
-  --sub-subtitle-letter-spacing: 0px;
-  --sub-subtitle-line-height: 100%;
-  --sub-subtitle-font-style: normal;
-  --sub-subtitle-reguler-font-family: "Inter-Regular", Helvetica;
-  --sub-subtitle-reguler-font-weight: 400;
-  --sub-subtitle-reguler-font-size: 16px;
-  --sub-subtitle-reguler-letter-spacing: 0px;
-  --sub-subtitle-reguler-line-height: 100%;
-  --sub-subtitle-reguler-font-style: normal;
-  --content-font-family: "Inter-Regular", Helvetica;
-  --content-font-weight: 400;
-  --content-font-size: 11px;
-  --content-letter-spacing: 0px;
-  --content-line-height: 100%;
-  --content-font-style: normal;
-  --subtitle-semi-font-family: "Inter-SemiBold", Helvetica;
-  --subtitle-semi-font-weight: 600;
-  --subtitle-semi-font-size: 20px;
-  --subtitle-semi-letter-spacing: 0px;
-  --subtitle-semi-line-height: 100%;
-  --subtitle-semi-font-style: normal;
-} */
+body::-webkit-scrollbar {
+  width: 0;
+}
 
 .store {
   background-color: #ffffff;
@@ -58,11 +11,12 @@
 }
 
 .store .div {
-  background-color: #ffffff;
+  background-color: var(--bg-color);
   overflow: hidden;
   width: 1920px;
   height: 1024px;
   position: relative;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .store .LOGO {
@@ -85,7 +39,6 @@
   letter-spacing: 0;
   line-height: 20px;
   white-space: nowrap;
-  transition: background-color 0.3s, color 0.3s;
   cursor: pointer;
 }
 
@@ -100,35 +53,35 @@
 .store .text-wrapper {
   top: 206px;
   left: 149px;
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: 20px;
 }
 
 .store .text-wrapper-2 {
   top: 151px;
   left: 149px;
-  color: #000000b2;
+  color: var(--fonts-nigga);
   font-size: 16px;
 }
 
 .store .text-wrapper-3 {
   top: 265px;
   left: 149px;
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: 20px;
 }
 
 .store .text-wrapper-4 {
   top: 324px;
   left: 149px;
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: 20px;
 }
 
 .store .text-wrapper-5 {
   top: 383px;
   left: 149px;
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: 20px;
 }
 
@@ -184,18 +137,18 @@
   width: 201px;
   top: 298px;
   left: 29px;
-  font-family: var(--content-font-family);
+  font-family: var(--sub-subtitle-font-family-font-family);
   font-weight: var(--content-font-weight);
   color: #000000;
-  font-size: var(--content-font-size);
-  letter-spacing: var(--content-letter-spacing);
-  line-height: var(--content-line-height);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
-  font-style: var(--content-font-style);
+  font-style: var(--sub-subtitle-font-style);
 }
 
 .store .text-wrapper-7 {
@@ -431,11 +384,12 @@
 }
 
 .store .group {
-  position: absolute;
+  position: fixed;
   width: 1932px;
   height: 75px;
   top: 0;
   left: 0;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .store .navbar {
@@ -454,49 +408,21 @@
 }
 
 .store .img {
+  position: absolute;
   width: 75px;
   height: 75px;
   top: 0;
   left: 0;
-  position: absolute;
   object-fit: cover;
 }
 
-.store .text-wrapper-11 {
+.store .text-wrapper-13 {
   position: absolute;
   top: 28px;
   left: 90px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
-  font-size: var(--sub-subtitle-font-size);
-  letter-spacing: var(--sub-subtitle-letter-spacing);
-  line-height: var(--sub-subtitle-line-height);
-  white-space: nowrap;
-  font-style: var(--sub-subtitle-font-style);
-}
-
-.store .text-wrapper-12 {
-  left: 892px;
-  position: absolute;
-  top: 29px;
-  font-family: var(--sub-subtitle-font-family);
-  font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
-  font-size: var(--sub-subtitle-font-size);
-  letter-spacing: var(--sub-subtitle-letter-spacing);
-  line-height: var(--sub-subtitle-line-height);
-  white-space: nowrap;
-  font-style: var(--sub-subtitle-font-style);
-}
-
-.store .text-wrapper-13 {
-  left: 1035px;
-  position: absolute;
-  top: 29px;
-  font-family: var(--sub-subtitle-font-family);
-  font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -505,12 +431,12 @@
 }
 
 .store .text-wrapper-14 {
-  left: 1640px;
+  left: 892px;
   position: absolute;
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -519,12 +445,12 @@
 }
 
 .store .text-wrapper-15 {
-  left: 1740px;
+  left: 1035px;
   position: absolute;
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -533,12 +459,12 @@
 }
 
 .store .text-wrapper-16 {
-  left: 747px;
+  left: 1640px;
   position: absolute;
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -547,12 +473,40 @@
 }
 
 .store .text-wrapper-17 {
+  left: 1740px;
+  position: absolute;
+  top: 29px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.store .text-wrapper-18 {
+  left: 747px;
+  position: absolute;
+  top: 29px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.store .text-wrapper-19 {
   left: 561px;
   position: absolute;
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -565,7 +519,7 @@
   width: 40px;
   height: 40px;
   top: 17px;
-  left: 1646px;
+  left: 1570px;
 }
 
 .menu {
@@ -575,29 +529,6 @@
 
 .menu:hover {
   color: #a6a6a6;
-}
-
-@media only screen and (max-width: 768px) {
-  .store .component,
-  .store .component-2,
-  .store .component-3,
-  .store .component-4,
-  .store .component-5,
-  .store .component-6,
-  .store .component-7,
-  .store .component-8 {
-    width: 100%; /* Ubah lebar komponen menjadi 100% pada layar kecil */
-    margin-right: 0; /* Hilangkan margin kanan */
-    margin-bottom: 20px; /* Tambahkan margin bawah */
-  }
-
-  .store .div {
-    width: 100%; /* Set lebar div menjadi 100% pada layar kecil */
-  }
-
-  .store .LOGO {
-    display: none; /* Sembunyikan logo pada layar kecil jika diinginkan */
-  }
 }
 
 .dark-mode {
@@ -661,4 +592,92 @@
 }
 .checkbox:checked + .checkbox-label .ball {
   transform: translateX(20px);
+}
+
+.modal-title {
+  margin-left: 150px;
+  color: var(--fonts-nigga);
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-reguler-letter-spacing);
+  font-family: var(--category-font-family);
+}
+
+.modal-body {
+  margin-left: 5px;
+}
+
+.new-acc {
+  text-decoration: none;
+  position: relative;
+  color: var(--fonts-nigga);
+  /* top: 15px; */
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--content-font-weight-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.new-acc:hover {
+  color: navy;
+}
+
+.btn {
+  background-color: var(--third);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 450px;
+}
+
+.btn:hover {
+  background-color: var(--second);
+  color: var(--fonts);
+}
+
+.subtitle-text {
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--content-font-weight-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--subtitle-font-style);
+}
+
+.content-text {
+  font-family: var(--sub-content-font-family);
+  font-weight: var(--sub-content-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--content-font-weight-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+@media only screen and (max-width: 768px) {
+  .store .component,
+  .store .component-2,
+  .store .component-3,
+  .store .component-4,
+  .store .component-5,
+  .store .component-6,
+  .store .component-7,
+  .store .component-8 {
+    width: 100%; /* Ubah lebar komponen menjadi 100% pada layar kecil */
+    margin-right: 0; /* Hilangkan margin kanan */
+    margin-bottom: 20px; /* Tambahkan margin bawah */
+  }
+
+  .store .div {
+    width: 100%; /* Set lebar div menjadi 100% pada layar kecil */
+  }
+
+  .store .LOGO {
+    display: none; /* Sembunyikan logo pada layar kecil jika diinginkan */
+  }
 }

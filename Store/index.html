@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
@@ -43,76 +43,94 @@
         <div class="text-wrapper-4" data-filter="hats">Hats</div>
         <div class="text-wrapper-5" data-filter="footwear">Footwear</div>
         <img class="line" src="img/line-6.svg" />
-        
+
         <div class="component" data-filter="footwear">
           <a href="../Produk/index.html">
-          <div class="text-wrapper-6">Rp. 1.500.000</div>
-          <p class="p">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <div class="text-wrapper-7">Sendal</div>
-          <div class="produk"></div>
+            <div class="text-wrapper-6">Rp. 1.500.000</div>
+            <p class="p">
+              Dorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <div class="text-wrapper-7">Sendal</div>
+            <div class="produk"></div>
           </a>
         </div>
 
         <div class="component-2" data-filter="footwear">
           <div class="text-wrapper-6">Rp. 1.500.000</div>
-          <p class="p">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="p">
+            Dorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
           <div class="text-wrapper-7">Sendal</div>
           <div class="produk-2"></div>
         </div>
 
         <div class="component-3" data-filter="hats">
           <div class="text-wrapper-6">Rp. 1.500.000</div>
-          <p class="p">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="p">
+            Dorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
           <div class="text-wrapper-7">Topi</div>
           <div class="produk-3"></div>
         </div>
 
         <div class="component-4" data-filter="hats">
           <div class="text-wrapper-6">Rp. 1.500.000</div>
-          <p class="p">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="p">
+            Dorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
           <div class="text-wrapper-7">Topi</div>
           <div class="produk-4"></div>
         </div>
 
         <div class="component-5" data-filter="jerseys">
           <div class="text-wrapper-6">Rp. 1.500.000</div>
-          <p class="p">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="p">
+            Dorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
           <div class="text-wrapper-7">Jersey</div>
           <div class="produk-5"></div>
         </div>
 
         <div class="component-6" data-filter="jerseys">
           <div class="text-wrapper-6">Rp. 1.500.000</div>
-          <p class="p">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="p">
+            Dorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
           <div class="text-wrapper-7">Jersey</div>
           <div class="produk-6"></div>
         </div>
 
         <div class="component-7" data-filter="footwear">
           <div class="text-wrapper-6">Rp. 1.500.000</div>
-          <p class="p">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="p">
+            Dorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
           <div class="text-wrapper-7">Sepatu</div>
           <div class="produk-7"></div>
         </div>
 
         <div class="component-8" data-filter="footwear">
           <div class="text-wrapper-8">Rp. 1.500.000</div>
-          <p class="text-wrapper-9">Dorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="text-wrapper-9">
+            Dorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
           <div class="text-wrapper-10">Kaus Kaki</div>
           <div class="produk-8"></div>
         </div>
-        
+
         <div class="group">
           <div class="navbar">
             <div class="brand">
               <img class="img" src="img/logo.png" />
-              <div class="text-wrapper-11">SportifyNews</div>
+              <div class="text-wrapper-13">SportifyNews</div>
             </div>
-            <a href="../Store/index.html" class="menu text-wrapper-12">Store</a>
-            <a href="../Galerry/index.html" class="menu text-wrapper-13">Gallery</a>
-            
+            <a href="../Store/index.html" class="menu text-wrapper-14">Store</a>
+            <a href="../Galerry/index.html" class="menu text-wrapper-15"
+              >Gallery</a
+            >
+
             <div
-              class="menu text-wrapper-14"
+              class="menu text-wrapper-16"
               type="button"
               data-bs-toggle="modal"
               data-bs-target="#signin"
@@ -121,7 +139,94 @@
             </div>
 
             <div
-              class="menu text-wrapper-15"
+              class="modal fade"
+              id="signin"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div
+                  class="modal-content"
+                  style="background-color: var(--modal)"
+                >
+                  <div class="modal-header">
+                    <h1 class="modal-title" id="staticBackdropLabel">
+                      <b>Account Sign In</b>
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="subtitle-text">
+                      Enter your e-mail and password to access your<br />existing
+                      account
+                    </p>
+                    <form>
+                      <label>
+                        <i
+                          class="fas fa-email"
+                          style="color: var(--fonts-nigga)"
+                          >E-mail</i
+                        >
+                      </label>
+                      <div>
+                        <input type="text" placeholder="E-mail" required />
+                      </div>
+
+                      <label>
+                        <i class="fas fa-key" style="color: var(--fonts-nigga)"
+                          >Password</i
+                        >
+                      </label>
+                      <div>
+                        <input
+                          type="password"
+                          placeholder="Password (6-25 Characters)"
+                          required
+                        />
+                      </div>
+
+                      <div>
+                        <a href="#" class="content-text"
+                          >FORGOT YOUR PASSWORD?</a
+                        >
+                      </div>
+                      <div>
+                        <button
+                          class="btn"
+                          type="submit"
+                          style="color: var(--fonts-nigga)"
+                        >
+                          SIGN IN
+                        </button>
+                      </div>
+                      <div>
+                        <p class="content-text">
+                          Don't have an account?<br />
+                          <a
+                            href="#"
+                            class="new-acc"
+                            data-bs-toggle="modal"
+                            data-bs-target="#signup"
+                            >SIGN UP</a
+                          >
+                        </p>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="menu text-wrapper-17"
               type="button"
               data-bs-toggle="modal"
               data-bs-target="#signup"
@@ -129,8 +234,101 @@
               Sign Up
             </div>
 
-            <a href="../News Page/index.html" class="menu text-wrapper-16">News</a>
-            <a href="../Homepage/index.html" class="menu text-wrapper-17">Homepage</div>
+            <div
+              class="modal fade"
+              id="signup"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div
+                  class="modal-content"
+                  style="background-color: var(--modal)"
+                >
+                  <div class="modal-header">
+                    <h1 class="modal-title" id="staticBackdropLabel">
+                      <b>Account Sign Up</b>
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="subtitle-text">
+                      Enter your e-mail and password to create an<br />
+                      account
+                    </p>
+                    <form>
+                      <label>
+                        <i
+                          class="fas fa-email"
+                          style="color: var(--fonts-nigga)"
+                          >E-mail</i
+                        >
+                      </label>
+                      <div>
+                        <input type="text" placeholder="E-mail" required />
+                      </div>
+
+                      <label>
+                        <i class="fas fa-key" style="color: var(--fonts-nigga)"
+                          >Password</i
+                        >
+                      </label>
+                      <div>
+                        <input
+                          type="password"
+                          placeholder="Password (6-25 Characters)"
+                          required
+                        />
+                      </div>
+
+                      <div>
+                        <p class="content-text">
+                          By clicking "SIGN UP", you agree to the Term of Use,
+                          Privacy<br />Policy, and agree to receive content and
+                          promotional<br />communications from us.<br />
+                        </p>
+                      </div>
+                      <div>
+                        <button
+                          class="btn"
+                          type="submit"
+                          style="color: var(--fonts-nigga)"
+                        >
+                          SIGN UP
+                        </button>
+                      </div>
+                      <div>
+                        <p class="content-text">
+                          Already have an account?<br />
+                          <a
+                            href="#"
+                            class="new-acc"
+                            data-bs-toggle="modal"
+                            data-bs-target="#signin"
+                            >SIGN IN</a
+                          >
+                        </p>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a href="../News Page/index.html" class="menu text-wrapper-18"
+              >News</a
+            >
+            <a href="../Homepage/index.html" class="menu text-wrapper-19"
+              >Homepage</a
+            >
             <img class="search-bar" src="img/search-bar.svg" />
             <div class="dark-mode-wrapper">
               <input type="checkbox" class="checkbox" id="checkbox" />
@@ -154,23 +352,26 @@
   </script>
 </html>
 
-
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const filterButtons = document.querySelectorAll('.text-wrapper, .text-wrapper-3, .text-wrapper-4, .text-wrapper-5');
-    const components = document.querySelectorAll('.component, .component-2, .component-3, .component-4, .component-5, .component-6, .component-7, .component-8');
+  document.addEventListener("DOMContentLoaded", function () {
+    const filterButtons = document.querySelectorAll(
+      ".text-wrapper, .text-wrapper-3, .text-wrapper-4, .text-wrapper-5"
+    );
+    const components = document.querySelectorAll(
+      ".component, .component-2, .component-3, .component-4, .component-5, .component-6, .component-7, .component-8"
+    );
 
-    filterButtons.forEach(button => {
-      button.addEventListener('click', function () {
-        const filterValue = this.getAttribute('data-filter');
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", function () {
+        const filterValue = this.getAttribute("data-filter");
 
-        components.forEach(component => {
-          const componentFilter = component.getAttribute('data-filter');
+        components.forEach((component) => {
+          const componentFilter = component.getAttribute("data-filter");
 
-          if (filterValue === 'all' || filterValue === componentFilter) {
-            component.style.display = 'block';
+          if (filterValue === "all" || filterValue === componentFilter) {
+            component.style.display = "block";
           } else {
-            component.style.display = 'none';
+            component.style.display = "none";
           }
         });
       });
