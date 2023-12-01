@@ -1,3 +1,7 @@
+body::-webkit-scrollbar {
+  width: 0;
+}
+
 .news-blog {
   background-color: #ffffff;
   display: flex;
@@ -7,10 +11,11 @@
 }
 
 .news-blog .overlap-wrapper {
-  background-color: #ffffff;
+  background-color: var(--bg-color);
   overflow-x: hidden;
   width: 1920px;
   height: 4194px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .news-blog .overlap {
@@ -22,12 +27,13 @@
 .news-blog .rectangle {
   position: absolute;
   width: 1870px;
-  height: 4043px;
+  height: 3150px;
   top: 92px;
   left: 22px;
-  background-color: #ffffff;
+  background-color: var(--bg-color);
   border-radius: 5px;
-  box-shadow: 0px 6px 13px #00000012, 0px 23px 23px #0000000f, 0px 52px 31px #00000008, 0px 92px 37px #00000003,
+  box-shadow: 0px 6px 13px var(--fonts), 0px 23px 23px var(--fonts),
+    0px 52px 31px var(--fonts), 0px 1px 37px var(--fonts),
     0px 144px 40px transparent;
 }
 
@@ -103,7 +109,7 @@
   left: 108px;
   font-family: var(--category-font-family);
   font-weight: var(--category-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--category-font-size);
   letter-spacing: var(--category-letter-spacing);
   line-height: var(--category-line-height);
@@ -155,7 +161,7 @@
   left: 0;
   font-family: var(--title-font-family);
   font-weight: var(--title-font-weight);
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: var(--title-font-size);
   letter-spacing: var(--title-letter-spacing);
   line-height: var(--title-line-height);
@@ -208,7 +214,7 @@
   left: 0;
   font-family: "Inter", Helvetica;
   font-weight: 800;
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: 16px;
   letter-spacing: 0;
   line-height: 16px;
@@ -222,7 +228,7 @@
   left: 0;
   font-family: "Inter", Helvetica;
   font-weight: 400;
-  color: #000000;
+  color: #79808a;
   font-size: 12px;
   letter-spacing: 0;
   line-height: 18px;
@@ -233,8 +239,8 @@
   align-items: center;
   gap: 25px;
   position: absolute;
-  top: 3892px;
-  left: 571px;
+  top: 3050px;
+  left: 800px;
 }
 
 .news-blog .group-wrapper {
@@ -284,7 +290,7 @@
   top: 1103px;
   left: 108px;
   font-weight: 400;
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: 24px;
   line-height: 24px;
   font-family: "Inter", Helvetica;
@@ -295,11 +301,11 @@
   position: absolute;
   width: 72px;
   height: 23px;
-  top: 3850px;
-  left: 690px;
+  top: 3000px;
+  left: 923px;
   font-family: "Inter", Helvetica;
   font-weight: 700;
-  color: #000000;
+  color: var(--fonts-nigga);
   font-size: 24px;
   letter-spacing: 0;
   line-height: 36px;
@@ -307,11 +313,12 @@
 }
 
 .news-blog .navbar-wrapper {
-  position: absolute;
+  position: fixed;
   width: 1932px;
   height: 75px;
   top: 0;
   left: 0;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .news-blog .navbar {
@@ -344,7 +351,7 @@
   left: 90px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -358,7 +365,7 @@
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -372,7 +379,7 @@
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -381,12 +388,12 @@
 }
 
 .news-blog .text-wrapper-8 {
-  left: 1722px;
+  left: 1640px;
   position: absolute;
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -395,12 +402,12 @@
 }
 
 .news-blog .text-wrapper-9 {
-  left: 1812px;
+  left: 1740px;
   position: absolute;
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -414,7 +421,7 @@
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -428,7 +435,7 @@
   top: 29px;
   font-family: var(--sub-subtitle-font-family);
   font-weight: var(--sub-subtitle-font-weight);
-  color: var(--fonts);
+  color: rgba(227, 227, 227, 1);
   font-size: var(--sub-subtitle-font-size);
   letter-spacing: var(--sub-subtitle-letter-spacing);
   line-height: var(--sub-subtitle-line-height);
@@ -441,5 +448,133 @@
   width: 40px;
   height: 40px;
   top: 17px;
-  left: 1646px;
+  left: 1570px;
+}
+
+.dark-mode {
+  --bg-color: #101010;
+  --modal: #454545;
+  --main-color: #252525;
+  --second: #454545;
+  --third: #656565;
+  --adds: #bababa;
+  /* --fonts: #e9e9e9;
+  --fonts-nigga: #252525; */
+  --fonts: #252525;
+  --fonts-nigga: #e9e9e9;
+}
+
+.dark-mode-wrapper {
+  position: absolute;
+  top: 20px;
+  left: 1840px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: var(--fonts);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+.fa-moon {
+  color: #717171;
+}
+.fa-sun {
+  color: #f39c12;
+}
+.checkbox-label {
+  background-color: rgba(227, 227, 227, 1);
+  width: 55px;
+  height: 32px;
+  border-radius: 50px;
+  position: relative;
+  padding: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkbox-label .ball {
+  background: var(--main-color);
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 7px;
+  top: 4.5px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(20px);
+}
+
+.modal-title {
+  margin-left: 150px;
+  color: var(--fonts-nigga);
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-reguler-letter-spacing);
+  font-family: var(--category-font-family);
+}
+
+.modal-body {
+  margin-left: 5px;
+}
+
+.new-acc {
+  text-decoration: none;
+  position: relative;
+  color: var(--fonts-nigga);
+  /* top: 15px; */
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--content-font-weight-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.new-acc:hover {
+  color: navy;
+}
+
+.btn {
+  background-color: var(--third);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 450px;
+}
+
+.btn:hover {
+  background-color: var(--second);
+  color: var(--fonts);
+}
+
+.subtitle-text {
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--content-font-weight-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--subtitle-font-style);
+}
+
+.content-text {
+  font-family: var(--sub-content-font-family);
+  font-weight: var(--sub-content-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--content-font-weight-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
 }
